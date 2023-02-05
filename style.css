@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,10 +17,12 @@
     height: 100%;
 }
 .navbar{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 7px 5px 0 rgb(0 0 0 / 5%);
 }
+
+
 nav{
     display: inline-block;
 }
@@ -47,6 +50,17 @@ li{
 .navbar a {
     padding: 10px;
 }
+.navbar ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #c5c5c5;
+}
+.navbar ul li a:hover{
+    color: #01D647;
+}
+nav .fa {
+    display: none;
+  }
 .logo{
     padding-right: 200px;
 }
@@ -57,19 +71,163 @@ li{
     border-width: 5px;
 }
 .logo .text p{
-    padding: 11px;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
     color: #01D647;
+    padding-right: 20px;
+    font-weight: 600;
+}
+@media (max-width: 750px){
+    .navbar ul {
+        flex-direction: column;
+      }
+      .navbar a {
+        padding: 0;
+        font-size: 14px;
+      }
+      .navbar ul li {
+        display: block;
+      }
+      .navbar li {
+        padding-bottom: 20px;
+        /* font-size: 14px; */
+      }
+      .nav-links {
+        position: fixed;
+        background: rgba(111,123,139, 0.9);
+        height: 100%;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        overflow: hidden;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+      }
+      nav .fa {
+        display: block;
+        color: #01D647;
+        margin: 10px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .nav-links ul {
+        padding: 30px;
+      }
+      .navbar .flex {
+        justify-content: space-between;
+        /* display: flex; */
+        /* justify-content: flex-start; */
+        align-items: center;
+        height: 100%;
+    }
 }
 
 .showcase{
-    background-image: linear-gradient(rgba(111,123,139, 0.8), rgba(111,123,139, 0.5)),
+    background-image: linear-gradient(rgba(58, 66, 75, 0.9), rgba(78, 86, 96, 0.7)),
     url("images/1.png");
-    position: relative;
+    /* position: relative; */
     height: 1088px;
     /* width: 1615px; */
     background-size: cover;
     object-position: 50% 50%;
     /* background-color: #324158; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name{
+    /* margin: 223px 0px 49px calc((100% - 980px) * 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    /* padding-left: 288px; */
+    align-items: flex-start;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.name h1{
+    color: #fff;
+}
+.name span{
+    color: #01D647;
+}
+.name h1 .second{
+    letter-spacing: 4px;
+}
+.name h5{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.name h5 span{
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.8em;
+    font-weight: 400;
+    letter-spacing: 5.2px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 1100px){
+    .name{
+        font-size: 40px;
+        padding: 65px;
+    }
+    .name h5 span{
+        font-size: 22px;
+    }
+}
+@media (max-width: 1490px){
+    .showcase{
+        /* background-size: contain;
+        background-repeat: no-repeat;
+        position: relative; */
+        background-attachment: scroll;
+        height: auto;
+    }
+}
+@media (max-width: 900px){
+    .name{
+        font-size: 34px;
+        padding-top: 80px;
+    }
+    .name h5 span {
+        font-size: 18px;
+    }
+    .logo .text p{
+        font-size: 26px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 750px){
+    .name {
+        font-size: 32px;
+        padding-top: 70px;
+    }
+    .name h5 span {
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px){
+    .showcase{
+        background-size: cover;
+        background-position: right;
+    }
+    .name {
+        font-size: 24px;
+        padding-top: 60px;
+    }
+    .name h5 span {
+        font-size: 14px;
+        letter-spacing: 3.5px;
+    }
+    .name h5 {
+        padding-top: 27px;
+        padding-bottom: 0;
+    }
+    
 }
