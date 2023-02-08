@@ -5,7 +5,7 @@
     padding: 0;
 }
 .container {
-    max-width: 1100px;
+    max-width: 819px;
     margin: 0 auto;
     /* overflow: auto; */
     padding: 0 40px;
@@ -145,7 +145,7 @@ nav .fa {
     padding-top: 100px;
     /* padding-left: 288px; */
     align-items: flex-start;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     line-height: 1.2;
@@ -216,6 +216,7 @@ nav .fa {
     .showcase{
         background-size: cover;
         background-position: right;
+        height: 647px;
     }
     .name {
         font-size: 24px;
@@ -230,4 +231,131 @@ nav .fa {
         padding-bottom: 0;
     }
     
+}
+.resume{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    background: #323A50;
+    margin-top: 145px;
+}
+.resume .logo{
+    padding-right: 0;
+    margin: 70px 0 70px;
+}
+.resume .logo .text p{
+    font-size: 64px;
+}
+.resume .para{
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 125px 59px 125px;
+    line-height: 2.5em;
+}
+.resume .button{
+    border: 1px solid #01d647;
+    font-size: 16px;
+    padding: 15px 40px 15px 40px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 85px;
+    cursor: pointer;
+}
+.resume .button::hover{
+    background-color: #01D647;
+    color: #fff;
+    /* transition: 1s; */
+}
+@media(max-width: 1100px){
+    .resume .logo{
+        margin: 50px 0 35px;
+    }
+    .resume .logo .text p{
+        font-size: 48px;
+    }
+    .resume .para{
+        padding: 0px 120px 59px 120px;
+    }
+    .resume .button{
+        margin-bottom: 80px;
+    }
+}
+@media(max-width: 750px){
+    .resume .para{
+        padding: 0px 40px 50px 40px;
+    }
+}
+@media(max-width: 480px){
+    .resume{
+        margin-top: 65px;
+    }
+    .resume .logo {
+        margin: 0 0 35px;
+    }
+    .resume .logo .text p {
+        font-size: 36px;
+    }
+    .resume .para {
+        padding: 0 12px 40px 12px;
+        line-height: 2rem;
+        font-size: 14px;
+    }
+    .resume .button {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+}
+
+
+
+.third{
+    background: linear-gradient(rgba(58, 66, 75, 0.9), rgba(78, 86, 96, 0.7)),
+    url("images/2.png");
+    width: 1476.8px;
+    height: 1250px;
+    background-size: cover;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 100px;
+}
+.skills .heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    font-size: 46px;
+    color: #fff;
+}
+.skills .heading span{
+    color: #BFC7D4;
+}
+.bars{
+    display: grid;
+    grid-template-columns: auto 89%;
+}
+.bars .left{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.bars .left span{
+    padding-bottom: 10px;
+}
+.bars .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bars .right .one {
+    width: 75%;
+    /* margin-top: 17px; */
+    background: #fff;
+    height: 11px;
+    /* margin-top: 4px;
+    margin-bottom: 18px; */
 }
