@@ -334,14 +334,16 @@ nav .fa {
 .skills .heading span{
     color: #BFC7D4;
 }
-.bars{
+.bars {
     display: grid;
-    grid-template-columns: auto 89%;
+    grid-template-columns: 18% 82%;
+    align-items: center;
+    padding-bottom: 24px;
 }
 .bars .left{
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 .bars .left span{
     padding-bottom: 10px;
@@ -358,4 +360,13 @@ nav .fa {
     height: 11px;
     /* margin-top: 4px;
     margin-bottom: 18px; */
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+}
+.value {
+    font-size: 10px;
+    padding-left: 10px;
 }
