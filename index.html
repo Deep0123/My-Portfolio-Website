@@ -19,23 +19,23 @@
 
 <body>
     <!-- begining -->
-    <section class="showcase">
+    <section class="showcase" id="home">
         <div class="navbar">
             <div class="container flex">
                 <div class="logo">
                     <div class="text">
-                        <p>D</p>
+                        <a href="#home"><p>D</p></a>
                     </div>
                 </div>
                 <nav>
                     <div class="nav-links" id="navLinks">
                         <i class="fa fa-times" onclick="hideMenu()"></i>
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">PROFESSIONAL</a></li>
-                            <li><a href="#">EXPERIENCE</a></li>
-                            <li><a href="#">PORTFOLIO</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#professional">PROFESSIONAL</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#experience">EXPERIENCE</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
                     <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -60,18 +60,16 @@
             <div class="resume">
                 <div class="logo">
                     <div class="text">
-                        <p>D</p>
+                        <a href="#home"><p>D</p></a>
                     </div>
                 </div>
                 <div class="para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ducimus repudiandae iste soluta
-                    laborum quasi eaque optio adipisci sunt. Dolorum itaque doloribus quo nesciunt molestias illo iste
-                    iure sint, beatae voluptas impedit? Cupiditate
+                    Welcome to my portfolio website! I am thrilled to have the opportunity to showcase my skills, experiences, and passion for web development. As you explore my site, you will find a diverse range of projects, each of which reflects my dedication to delivering high-quality work and my commitment to continuous learning and growth. I am excited to share with you my journey and the impact that I have made in the field. Thank you for visiting, and I hope that you enjoy getting to know me and my work.
                 </div>
-                <div class="button">download resume</div>
+                <div class="button"><a href="https://drive.google.com/file/d/1v3f8w88KwklFq86fuOhZQjH90uC-bN3O/view">download resume</a></div>
             </div>
             <div class="skills">
-                <div class="heading">
+                <div class="heading" id="professional">
                     <h3>
                         <span>01</span>
                         professional
@@ -166,29 +164,29 @@
     </section>
     <section class="fourth">
         <div class="container">
-            <div class="heading name">
+            <div class="heading name" id="portfolio">
                 <h3>
                     <span>02</span>
                     PORTFOLIO
                 </h3>
                 <h5>
-                    <span>my latest work . <a href=""><span class="files">see more></span></a></span>
+                    <span>my latest work . <a href="https://github.com/Deep0123?tab=repositories" target="_blank"><span class="files">see more></span></a></span>
                 </h5>
             </div>
         </div>
         <div class="gallery">
             <div class="image">
-                <img src="images/3.png" alt="">
+                <iframe src="https://deep0123.github.io/police-vs-taxi-css-animation/" scrolling="no" title="CSS Animation"></iframe>
             </div>
             <div class="image">
-                <img src="images/3.png" alt="">
+                <iframe src="https://deep0123.github.io/Apex-sports/index.html" scrolling="no" title="Sports Website"></iframe>
             </div>
             <div class="image">
-                <img src="images/3.png" alt="">
+                <iframe src="https://deep0123.github.io/simple_calculator/" scrolling="no" title="calculator"></iframe>
             </div>
         </div>
 
-        <div class="heading name">
+        <div class="heading name" id="experience">
             <h3>
                 <span>03</span>
                 EXPERIENCE
@@ -202,9 +200,9 @@
                 <div class="direction-r">
                     <div class="flag-wrapper">
                         <span class="flag">Freelancer</span>
-                        <span class="time-wrapper"><span class="time">2013 - present</span></span>
+                        <span class="time-wrapper"><span class="time">2023 - present</span></span>
                     </div>
-                    <div class="desc">My current employment. Way better than the position before!</div>
+                    <div class="desc">Live Doubt solver in SerVon Solutions</div>
                 </div>
             </li>
 
@@ -212,10 +210,10 @@
             <li>
                 <div class="direction-l">
                     <div class="flag-wrapper">
-                        <span class="flag">Apple Inc.</span>
-                        <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+                        <span class="flag">Asper</span>
+                        <span class="time-wrapper"><span class="time">2021-2022</span></span>
                     </div>
-                    <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.
+                    <div class="desc">Learned Web Development at ASPER with team.
                     </div>
                 </div>
             </li>
@@ -224,10 +222,10 @@
             <li>
                 <div class="direction-r">
                     <div class="flag-wrapper">
-                        <span class="flag">Harvard University</span>
-                        <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+                        <span class="flag">Asper</span>
+                        <span class="time-wrapper"><span class="time">2021 - 2023</span></span>
                     </div>
-                    <div class="desc">A description of all the lectures and courses I have taken and my final degree?
+                    <div class="desc">Learnt programming in C++ at ASPER.
                     </div>
                 </div>
             </li>
@@ -237,15 +235,14 @@
             <div class="contact">
                 <div class="para">
                     <h3>contact</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ut suscipit magni cum voluptatum
-                        saepe ab, qui</p>
+                    <p>I am always excited to connect with new people and explore exciting opportunities. If you have any questions, inquiries, or just want to say hello, please do not hesitate to reach out to me. I would love to hear from you and see how we can collaborate to achieve great things together.</p>
 
                     <div class="para2">
-                        <p class="email"><a href="">deep@gmail.com</a></p>
-                        <p>Tel: 1-800-000-0000</p>
+                        <p class="email"><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">rekhamandal5280@gmail.com</a></p>
+                        <p><a href="https://discordapp.com/users/895251983508844574" target="_blank"> Discord</a></p>
                     </div>
                 </div>
-                <div class="messaging">
+                <div class="messaging" id="contact">
                     <div class="one">
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required>
                         <input type="text" placeholder="Enter Email" name="email" required>
@@ -257,15 +254,15 @@
                     <div class="three">
                         <textarea id="subject" name="subject" placeholder="Message" required></textarea>
                     </div>
-                    <a href=""><div class="button1">send</div></a>
+                    <div class="tap">send</div>
                 </div>
                 
             </div>
             <div class="social">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/deepankar-mandal-373899221/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Deep0123"><i class="fa-brands fa-github" target="_blank"></i></a>
+                <a href="https://www.instagram.com/deepankar04.js/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                <a href="https://twitter.com/justcoding4life"><i class="fa-brands fa-twitter" target="_blank"></i></a>
             </div>
             
             
@@ -275,7 +272,7 @@
             <div class=" container">
                 <div class="logo">
                     <div class="text">
-                        <p>D</p>
+                        <a href="#home"><p>D</p></a>
                     </div>
                 </div>
                 <div class="copyright">
