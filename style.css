@@ -526,7 +526,7 @@ nav .fa {
 }
 @media (max-width: 480px) {
   .gallery .image iframe{
-        width: 400px;
+        width: 388px;
   }
 }
 
@@ -955,6 +955,9 @@ textarea {
   .para h3 {
     text-align: center;
   }
+  .name{
+    padding: 34px;
+  }
 }
 .social {
   width: 100%;
@@ -1019,5 +1022,8 @@ textarea {
   .copyright p {
     font-size: 14px;
     
+  }
+  .footer{
+    margin-top: 240px;
   }
 }
