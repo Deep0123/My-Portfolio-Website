@@ -522,6 +522,9 @@ nav .fa {
   }
 }
 @media (max-width: 480px) {
+  .gallery .image iframe{
+        width: 400px;
+  }
 }
 
 /* timeline */
