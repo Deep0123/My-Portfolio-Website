@@ -460,6 +460,9 @@ nav .fa {
     font-size: 14px;
     padding-bottom: 10px;
   }
+  .third{
+    height: 1110px;
+  }
 }
 
 .fourth {
@@ -1004,6 +1007,9 @@ textarea {
 @media(max-width: 660px){
   .fourth{
     height: 2744px;
+  }
+  .fifth{
+    height: 746px;
   }
 }
 @media(max-width: 480px){
