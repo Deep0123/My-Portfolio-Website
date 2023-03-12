@@ -493,6 +493,7 @@ nav .fa {
   height: 407px;
   border: none;
   width: 407px;
+  overflow-x: hidden;
   /* overflow: scroll; */
   /* scrollbar-width: 0; */
 }
