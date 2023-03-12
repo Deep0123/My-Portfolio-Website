@@ -739,7 +739,11 @@ nav .fa {
 }
 
 /* ================ Timeline Media Queries ================ */
-
+@media(max-width: 480px){
+  .time{
+    color: #fff;
+  }
+}
 @media screen and (max-width: 660px) {
   .timeline {
     width: 100%;
